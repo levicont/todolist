@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.lvg.todolist.R;
 
+
 /**
  * Created by Victor on 22.06.2016.
  */

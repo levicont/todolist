@@ -4,22 +4,13 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
         >
-    <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtEditAddItem"
-            android:text="@string/addItemHint"
-            android:contentDescription="@string/addItemContentDescription"/>
-    <ListView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/itemListView">
-
-    </ListView>
-    <fragment
-              android:id="@+id/skeleton_fragment"
-              android:layout_width="fill_parent"
+    <fragment android:name="com.lvg.todolist.fragments.NewItemFragment"
+              android:id="@+id/NewItemFragment"
+              android:layout_width="match_parent"
               android:layout_height="wrap_content"/>
-
+    <fragment android:name="com.lvg.todolist.fragments.ItemsListFragment"
+              android:id="@+id/ItemsListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 </LinearLayout>
 
